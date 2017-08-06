@@ -8,10 +8,9 @@ $near-black: #29293d;
 
 /* home-page */
 @media only screen and (min-width: 40.5em) {
-    body { 
+    #main-container { 
         background-image: url('adam-birkett-183643.jpg');
         background-size: auto;
-        float: none; 
     }
 }
 
