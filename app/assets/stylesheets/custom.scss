@@ -7,15 +7,17 @@ $dark-gray: #808080;
 $near-black: #29293d;
 
 /* home-page */
+@media only screen and (max-width: 40.5em) {
+    body { 
+        background-image: url('adam-birkett-183643.jpg');
+        background-size: auto;
+        float: none; 
+    }
+}
+
 #main-container {
 	background-image: url("joshua-earle-117661.jpg");
 	background-size: 100% Auto;
-}
-
-@media only screen and (min-device-width: 400px) {
-    body { 
-        background-image: url('adam-birkett-183643.jpg'); 
-    }
 }
 
 .static-pages-jumbotron {
