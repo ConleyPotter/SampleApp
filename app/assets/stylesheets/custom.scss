@@ -12,6 +12,12 @@ $near-black: #29293d;
 	background-size: 100% Auto;
 }
 
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('adam-birkett-183643.jpg'); 
+    }
+}
+
 .static-pages-jumbotron {
 	background: rgba(238, 238, 238, 0.5);
 }
