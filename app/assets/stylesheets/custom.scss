@@ -17,6 +17,10 @@ $near-black: #29293d;
 #main-container {
 	background-image: url("joshua-earle-117661.jpg");
 	background-size: 100% Auto;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .static-pages-jumbotron {
